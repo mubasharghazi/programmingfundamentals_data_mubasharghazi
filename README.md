@@ -5,5 +5,5 @@
 Student of Riphah International University
 <br> Contact info:
 <br> 
-Phone Number: 03213308313 & 03244363996 
+<b>Phone Number:</b> 03213308313
 <br> 
