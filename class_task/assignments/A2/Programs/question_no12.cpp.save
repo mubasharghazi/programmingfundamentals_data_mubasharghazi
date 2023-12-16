@@ -1,0 +1,10 @@
+#include<iostream>
+#include<cstdlib> // to use rand() function
+using namespace std;
+int main(){
+    for(int counter=1; i<=50; i++){
+        cout<<(rand()% 40)+1 <<endl;
+    }
+    
+return 0;
+}

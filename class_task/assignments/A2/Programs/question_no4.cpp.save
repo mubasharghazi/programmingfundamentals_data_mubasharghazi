@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+        int number,factorial = 1;
+        cout << "Enter a number: " << endl;
+        cin >> number;
+        if (number < 0) {
+            cout << " cannot find the factorial of a negative value." << endl;
+        } else if (number <= 1) {
+            cout << number << "! = " << factorial << endl;
+        } else {
+            for (int counter = number; counter >= 2; counter--) {
+                factorial = factorial * counter;
+            }
+            cout << number << "! = " << factorial << endl;
+        }
+    return 0;
+}

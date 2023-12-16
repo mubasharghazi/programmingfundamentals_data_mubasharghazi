@@ -1,0 +1,20 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main(){
+    int number;
+    cout<<"Enter a Number: "<<endl;
+    cin>>number;
+    bool flag = 0;
+    for(int i = 2; i<sqrt(number);i++){
+        if(number % i == 0){
+            cout<<number<<" is a Non-Prime Number."<<endl;
+            flag = 1;
+            break ;
+        }
+      if(flag == 0){
+        cout<<number<<" is a Prime Number."<<endl;
+      }
+    }
+    return 0;
+}

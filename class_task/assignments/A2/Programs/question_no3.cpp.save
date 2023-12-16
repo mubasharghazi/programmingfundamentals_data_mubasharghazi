@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main() {
+    int table,number;
+    cout<<"Enter  a Number: "<<endl;
+    cin>>number;
+    for (int counter = 1; counter <= 10; counter++){
+        tablel = counter * number;
+        cout<<number<<" x " <<counter<<" = "<<tablel<<endl;
+    }
+    return 0;
+}
