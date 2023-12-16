@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main() {
+    
+    int number,counter = 1;
+    
+    do{
+        count<<"Enter a Number: "<<endl;
+        cin>>number;
+        if(number == 7){
+            cout<<"You Guess! Successfully."<<endl;
+            
+        }
+    }
+    
+    
+   /* 
+    int counter=1;
+    while(counter <= 50){
+        if((counter % 2) != 0){
+            cout<<counter<<endl;
+        }
+       ++counter;
+    }
+    */
+    return 0;
+}
