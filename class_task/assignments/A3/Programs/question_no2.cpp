@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main() {
+    //let lenght of array is 5
+    int numbers[5];
+    cout<<"Enter Numbers: "<<endl;
+    for(int i=0; i<5; i++){
+        cin>>numbers[i];
+    }
+    int sum =0;
+    for(int i=0; i<5; i++){
+        sum = sum + numbers[i];
+    }
+    int aver = sum / 5 ;
+    cout<<"The average of Numbers is= "<<aver<<endl;
+    cout<<"The sum of All Numbers you Entered: "<<sum<<endl;
+    return 0;
+}

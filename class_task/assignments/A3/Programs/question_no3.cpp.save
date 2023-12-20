@@ -1,0 +1,44 @@
+#include<iostream>
+using namespace std;
+int main() {
+    int row1[3],row2[3],row3[3];
+    int sum=0;
+    cout<<"Enter First Row of Numbers.."<<endl;
+    for(int i=0; i<3; i++){
+        cin>>row1[i];
+    }
+    cout<<"Enter Second Row of Numbers.."<<endl;
+    for(int i=0; i<3; i++){
+        cin>>row2[i];
+    }
+    cout<<"Enter Third Row of Numbers.."<<endl;
+    for(int i=0; i<3; i++){
+        cin>>row3[i];
+    }
+    for(int j=0; j<3; j++){
+            cout<<row1[j]<<" ";
+    }
+    cout<<endl;
+    for(int j=0; j<3; j++){
+            cout<<row2[j]<<" ";
+    }
+    cout<<endl;
+    for(int j=0; j<3; j++){
+            cout<<row3[j]<<" ";
+    }
+    for(int i=0; i<1; i++){
+        for(int j=0; j<1; j++){
+            sum = sum + row1[j];
+        }
+        for(int n=0; n<1; n++){
+            sum = sum + row2[1];
+        }
+        for(int m=0; m<1; m++){
+            sum = sum + row3[2];
+        }
+    }
+    cout<<endl<<endl;
+    cout<<"Sum of Digonal is = ";
+    cout<<sum<<endl;
+    return 0;
+}

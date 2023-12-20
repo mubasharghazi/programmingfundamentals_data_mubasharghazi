@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main() {
+    int numbers[5];
+    cout<<"Enter Numbers: "<<endl;
+    for(int i=0; i<5; ++i){
+        cin>>numbers[i];
+    }
+    //To Create sense of assending order
+      for(int i=0;i<4; i++){
+        for(int j=i+1; j<5; j++){
+            if(numbers[j]<numbers[i]){
+                // < to assending order
+                // > to desending order
+                //to swap positions
+                int temp = numbers[j];
+                numbers[j]=numbers[i];
+                numbers[i]=temp;
+            }
+        }
+    }
+    cout<<endl<<endl;
+    for(int i=0; i<5; i++){
+        cout<<numbers[i]<<" "<<endl;
+    }
+}
