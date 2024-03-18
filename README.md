@@ -11,5 +11,5 @@ My <b>LinkedIn</b> Profile Link:
           https://www.linkedin.com/in/mubasharghazi/
 <br><br>
 
-My important link Ternal:
+My important link Web:
         https://mubasharghazi.bio.link/
