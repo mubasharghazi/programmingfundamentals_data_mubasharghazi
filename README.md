@@ -6,10 +6,10 @@ BS Computer Science Student at Riphah International University
 <br> Contact info:
 <be>
 <b>Phone Number:</b> 03213308313
-<be><be>
+<br><br>
 My <b>LinkedIn</b> Profile Link:
           https://www.linkedin.com/in/mubasharghazi/
-<be><be>
+<br><br>
 
 My important link Ternal:
         https://mubasharghazi.bio.link/
