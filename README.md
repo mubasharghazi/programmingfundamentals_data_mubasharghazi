@@ -1,9 +1,15 @@
 # Programming Fundamentals || Programs || Assignments || Task
 <br>
-<p> This Repo is for my personal data of PF. </p>
+<p> This Repo is for my data of <b>Programming Fundamentals</b>. </p>
 <i>Author</i> - <b> Mubashar Ghazi </b> <br>
-Student of Riphah International University
+BS Computer Science Student at Riphah International University
 <br> Contact info:
-<br> 
+<be>
 <b>Phone Number:</b> 03213308313
-<br> 
+<be><be>
+My <b>LinkedIn</b> Profile Link:
+          https://www.linkedin.com/in/mubasharghazi/
+<be><be>
+
+My important link Ternal:
+        https://mubasharghazi.bio.link/
